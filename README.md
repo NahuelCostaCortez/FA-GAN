@@ -34,8 +34,6 @@ discriminating element that will be able to distinguish arrhythmias of that type
 By training a set of GAN networks in such a way that each network is trained with a specific set of arrhythmias, at the end a model 
 can be built that gathers a set of detectors of different types of AF.
 
-![](images/general_solution_structure.png)
-
 The key to the success of this idea lies in the precision of the detectors, which must only react to episodes that coincide with 
 a set of clinical situations similar to those with which they were trained. When this group of detectors is fed with records of a 
 real patient's pacemaker, it is expected that only a few will recognize that the patient's arrhythmia is of the same type as 
@@ -54,8 +52,6 @@ tuned to similar parameters. This will mean that they have reacted by recognizin
 patient with the synthetic arrhythmias with which they were trained; thus, the output of the map can be considered as a 
 projection of the parameters of the model that best adapt to the criticality of the patient, thus being able to know the 
 patient's state of health.
-
-![](images/TruePatient.png)
 
 
 # Files in this Repository
