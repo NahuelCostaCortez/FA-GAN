@@ -1,7 +1,7 @@
 # FA-GAN
 
 This repository contains the code for the paper "Graphical analysis of the progression of atrial arrhythmia through an 
-ensemble of Generative Adversarial Network Discriminators", accepted by the EUSFLAT 2019 Conference in Praga (available soon).
+ensemble of Generative Adversarial Network Discriminators", accepted by the EUSFLAT 2019 Conference in Praga.
 
 # Abstract
 
